@@ -1,16 +1,4 @@
 # **Mortgages and Home Loans: know the who/what/why**
-## **Dataset information**
-### **Citation**
-**Home Mortgage Database**: https://ffiec.cfpb.gov/data-browser/data/2018?category=states&items=NY  <br>
-Data on 570,380 New York State home mortgage application for the year 2018 is provided by the **Federal Financial Institutions Examination Council** under the Home Mortgage Disclosure Act. <br>
-<br>
-**LEI API**: https://www.gleif.org/en/lei-data/gleif-lei-look-up-api/access-the-api# <br>
-Lender institutions in our dataset are identified by LEI codes, this API used to find corresponding names of institution lenders. <br>
-<br>
-**Bank vs Non-Bank Lender Database**: https://www.occ.treas.gov/topics/charters-and-licensing/financial-institution-lists/index-financial-institution-lists.html <br>
-The heart of this project is to identify the pros and cons of bank lenders and non-bank lenders. This databse allows us to identify if a lending instiution is classified as a bank lender (offers checking/savings services) or as non-bank lender (no checking/savings services). <br>
-<br>
-
 ## **Goal and Purpose** 
 In 2019, homeownership rate in the United States amounted to 65.1% and the average home price sits at $284,600.  As more and more adults partake in purchasing their first home, many seek the need for a home loan and subsequently a mortgage. However, with so many services and options available, what loan is right for you? Should you borrow from a bank institution or non-bank institution? What is a competitive and fair interest rate? What are my chances of preapproval? <br>
 
@@ -108,5 +96,17 @@ On the other hand, non-bank lenders approve more and reject less. Given that the
 ### **Denial Rate by Lender Type across demographic races**
 <img src="race_denial.png" width="608" height="493"/> <br>
 **Observation:** This chart illustrates that regardless of race, bank lenders deny applicants at a rate that is higher than the state average. On the other hand, we see that non-bank lenders deny all races at a rate under the state average with exception to race listed as "Other". Earlier in our analysis, we examined overall approval and denial rates between bank lenders and non-bank lenders that showed us bank lenders denied 30.9% of all applicants and non-bank lenders denying 16.6%. Using this information, we can see that some races such as White or Asian typically adhere to this distribution. However, for Black applicants, we see their denial rates for both types of lenders is substantially higher. Black aplicants were denied by bank lenders at a 53.63% rate compared to their overall 30.9%. Non-bank lenders denied 22.32% of Blacks compared to their 16.6% overall denial rate. What we can deduce from this is given a Black applicant, their chances of denial are doubled given they finance with a bank lender. The disparity between Black denial rates and overall denial rates for each lender type highlights the stark differences between bank lenders and non-bank lenders. For instance, bank lenders denied Black applicants at a rate. that is 23% higher than their average whereas non-bank lenders denied Blacks at a 6% higher rate. This shows that given an applicant's information, race, income, etc, there are clear advantages and disadvantages when choosing to finance with a bank lender of non-bank lender. <br>
+<br>
+
+## **Dataset information**
+### **Citation**
+**Home Mortgage Database**: https://ffiec.cfpb.gov/data-browser/data/2018?category=states&items=NY  <br>
+Data on 570,380 New York State home mortgage application for the year 2018 is provided by the **Federal Financial Institutions Examination Council** under the Home Mortgage Disclosure Act. <br>
+<br>
+**LEI API**: https://www.gleif.org/en/lei-data/gleif-lei-look-up-api/access-the-api# <br>
+Lender institutions in our dataset are identified by LEI codes, this API used to find corresponding names of institution lenders. <br>
+<br>
+**Bank vs Non-Bank Lender Database**: https://www.occ.treas.gov/topics/charters-and-licensing/financial-institution-lists/index-financial-institution-lists.html <br>
+The heart of this project is to identify the pros and cons of bank lenders and non-bank lenders. This databse allows us to identify if a lending instiution is classified as a bank lender (offers checking/savings services) or as non-bank lender (no checking/savings services). <br>
 <br>
 
